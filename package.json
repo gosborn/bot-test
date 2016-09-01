@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "mocha test",
-    "lint": "./node_modules/.bin/eslint server.js test bot services"
+    "lint": "./node_modules/.bin/eslint server.js console.js test bot services",
+    "console": "node console.js"
   },
   "repository": {
     "type": "git",
