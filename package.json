@@ -1,0 +1,37 @@
+{
+  "name": "greg-bot",
+  "version": "1.0.0",
+  "description": "a test chatbot made with ms bot framework",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha test",
+    "lint": "./node_modules/.bin/eslint server.js test bot services"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gosborn/greg-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gosborn/greg-bot/issues"
+  },
+  "homepage": "https://github.com/gosborn/greg-bot#readme",
+  "dependencies": {
+    "botbuilder": "^3.2.3",
+    "chai": "^3.5.0",
+    "lodash": "^4.15.0",
+    "q": "^1.4.1",
+    "request": "^2.74.0",
+    "request-promise": "^4.1.1",
+    "restify": "^4.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.4.0",
+    "eslint-config-airbnb": "^10.0.1",
+    "eslint-plugin-import": "^1.14.0",
+    "eslint-plugin-jsx-a11y": "^2.2.0",
+    "eslint-plugin-react": "^6.2.0",
+    "standard": "^8.0.0"
+  }
+}
